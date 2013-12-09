@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="refresh" content="60;URL=livebetssh.php?livebets[]=1989454">
+	<link rel="stylesheet" href="/style_new.css?vv12" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/ui.css?v15" type="text/css" media="all" />
+	<style type="text/css">
+		ul#but a.act {background-color:#EAF6FF;border:1px solid #EAF6FF;color:#000000;}
+		ul#but {height:20px;margin:0px;}
+		#dt {margin:3px;}
+		#r {font-weight:normal;color:#CC0000;}
+		#dt td{text-align:center;padding: 0px;}
+		#dt .tdh{font-size:9px;}
+		#dt .n{text-align:left;}
+		#dt a{color:#2274B0;}
+		#dt2 a{color:#2274B0;}
+		#dt td:first-child {text-align:left;white-space:nowrap;}
+		ul#but li {display:inline;}
+		ul#but a {float:right;font:bold 12px tahoma;padding:2px 12px 2px 12px;border:1px solid #EAF6FF;text-decoration:none;color:#CC3333;}
+		ul#but a:hover {background-color:#7BADD2;border:1px solid #7BADD2;color:#CC3333;}
+		.lbk td {text-align: center;}
+		.lbk td a {color: #069; text-decoration: underline}
+		.lbh td {text-align: center;}
+		.vid {position: absolute; margin: 2px 0 0 3px; border:0;}
+		.vdt {margin-left: 21px; text-decoration: underline; color: #c00;}
+
+		.btn.refresh .ico{float: left;}
+		table{border-spacing: 5px;border-collapse: separate;}
+	</style>
+	<script src="_inc/alert.js"></script>
+	<script src="jqueryc.js"></script>
+	<script>
+
+		st=(new Date()).getTime();
+		jQuery(function(){
+			st= parseInt(((new Date()).getTime()-st)/10);
+			var ut=(new Date()).getTime();
+			jQuery.get('/img/p.gif?r'+(new Date()).getTime(), function(){
+				ut=parseInt(((new Date()).getTime()-ut)/10);
+				jQuery.get('/img/s.gif?ut='+ut+'&st='+st);
+			});
+		});
+		//top.center.left.document.location.href+=''
+		$(function(){
+			$('.tlivemenu li[@class!=active]').hover(
+				function(){
+					$(this).addClass('hover')
+				},
+				function(){
+					$(this).removeClass('hover')
+				}
+			)
+//			$('.tlivemenu li').corner("tl tr 5px");
+			$('.refresh a').click(function(){
+				window.location.href +='';
+				return false;
+			})
+			$('.tlivemenu li[@class!=active]').hover(
+				function(){
+					$(this).addClass('hover')
+				},
+				function(){
+					$(this).removeClass('hover')
+				}
+			)
+			$('.tip_b').click(
+				function(){
+					$('.tip',$(this).parent()).show();
+					return false;
+				}
+			)
+			$('.tip')
+				.hover(
+				function(){},
+				function(){$(this).hide();}
+			)
+				.click(function(event){$(this).hide();event.stopPropagation();});
+
+
+
+		})
+	</script>
+	<base target="left">
+</head>
+<body>
+<div class="tlivemenu">
+	<ul>
+		<li class="active"><a href="live/line.php"  target="middle"><span>Live-ставки</span></a></li>
+		<li><a href="wflive/live_bets_2.php" target="middle"><span>Live-ставки (Flash версия)<span></a></li>
+		<li><a href="live/soon.php" target="middle"><span>Live-календарь</span></a></li>
+		<li><a href="live/results.php" target="middle"><span>Live-результаты</span></a></li>
+	</ul>
+	<div class="clr"></div>
+</div>
+<div class="refresh">
+	<a class="btn refresh" href="#" target="middle"><span class="ico refresh"></span><span class="r">Обновить</span></a>
+</div>
+
+<div class="all">
+<script>
+	function al () {
+		alert('Чтобы сделать ставку, необходимо зарегистрироваться или воспользоваться "гостевым входом"'); return false;
+	}
+
+	$(function(){
+		$('a[@href~=livebet\=]').click(function(){
+			bet = this.href.match(/livebet\=([\d\.]+)/i)[1];
+			parent.left.addLiveBet(bet)
+			return false;
+		})
+	})
+</script>
+
+Теннис. Турнир ATP. Гштaд. Clay.<br>
+
+<table style="border: 0;border-collapse: collapse;min-width:600px;">
+	<tr class="lbh">
+		<td nowrap width="25">Время</td>
+		<td nowrap>Игрок&nbsp;1</td>
+		<td nowrap>Игрок&nbsp;2</td>
+		<td nowrap width="25"><b>1</b></td>
+		<td nowrap width="25"><b>2</b></td>
+		<td nowrap>Фора1</td>
+		<td nowrap width="25">Кф</td>
+		<td nowrap>Фора2</td>
+		<td nowrap width="25">Кф</td>
+		<td nowrap width="25">Тотал</td>
+		<td nowrap width="25">Мен</td>
+		<td nowrap width="25">Бол</td>
+	</tr>
+	<tr class="lbk">
+		<td nowrap>17:05</td>
+		<td nowrap><font style="color: #2274B0; text-decoration: none;"><b>Гранольерс М.</b></font></td>
+		<td nowrap><font style="color: #2274B0; text-decoration: none;"><b>Хаасе Р.</b></font></td>
+		<td><a href="#" a onClick="al(); return false;"><font style="color: #CC0000; text-decoration: underline;">1.18</font></a></td>
+		<td><a href="#" a onClick="al(); return false;"><font style="color: #CC0000; text-decoration: underline;">4.5</font></a></td>
+		<td nowrap></td>
+		<td></td>
+		<td nowrap></td>
+		<td></td>
+		<td nowrap><b></b></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="12">
+			<table id=dt cellpadding="0" cellspacing="2">
+				<tr>
+					<td class=n colspan="22"><b>Исходы по сетам:</b></td>
+				</tr>
+				<tr>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;1&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;2&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;ФОРА1&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;КФ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;ФОРА2&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;КФ&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="" nowrap>&nbsp;&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;ТОТАЛ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;МЕН&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;БОЛ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;ТОТАЛ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;МЕН&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;БОЛ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;ТОТАЛ&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;МЕН&nbsp;</td>
+					<td class="tdh" width="35" nowrap>&nbsp;БОЛ&nbsp;</td>
+				</tr>
+				<tr>
+					<td><strong>2-й сет</strong></td>
+					<td><a href="#" onClick="return al();">1.65</a></td>
+					<td><a href="#" onClick="return al();">2.1</a></td>
+					<td><strong>-1.5</strong></td>
+					<td><a href="#" onClick="return al();">2.11</a></td>
+					<td><strong>+1.5</strong></td>
+					<td><a href="#" onClick="return al();">1.64</a></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>&nbsp;&nbsp;&nbsp;</strong></td>
+					<td><strong>9.5</strong></td>
+					<td><a href="#" onClick="return al();">2.79</a></td>
+					<td><a href="#" onClick="return al();">1.38</a></td>
+					<td><strong>10.5</strong></td>
+					<td><a href="#" onClick="return al();">1.43</a></td>
+					<td><a href="#" onClick="return al();">2.6</a></td>
+					<td><strong>12.5</strong></td>
+					<td><a href="#" onClick="return al();">1.24</a></td>
+					<td><a href="#" onClick="return al();">3.64</a></td>
+				</tr>
+			</table>
+			<div id="dt2" >
+				<b>Фора по сетам:</b> <b>Гранольерс М.</b>: (-1.5) <a href="#" onClick="return al();">1.65</a>; <b>Хаасе Р.</b>: (+1.5) <a href="#" onClick="return al();">2.11</a>;
+			</div>
+			<div id="dt2" >
+				<b>Победа в гейме:</b> 
+				16-й гейм П1: <a href="#" onClick="return al();">1.2</a>; 
+				16-й гейм П2: <a href="#" onClick="return al();">4</a>;
+			</div>
+			<div id="dt2" >
+				<b>Победа в гейме:</b> 
+				17-й гейм П1: <a href="#" onClick="return al();">2.95</a>; 
+				17-й гейм П2: <a href="#" onClick="return al();">1.35</a>;
+			</div>
+			<div id="dt2" >
+				<b>Подающий выиграет гейм:</b> 
+				<br>16-й гейм со счетом <strong>40:0</strong>: <a href="#" onClick="return al();">5</a>; 
+				<br>16-й гейм со счетом <strong>40:15</strong>: <a href="#" onClick="return al();">3.4</a>; 
+				<br>16-й гейм со счетом <strong>40:30</strong>: <a href="#" onClick="return al();">3.7</a>; 
+				<br>16-й гейм со счетом <strong>40:40</strong>: <a href="#" onClick="return al();">5</a>; 
+				<br>16-й гейм подающий проиграет: <a href="#" onClick="return al();">4</a>;
+			</div>
+			<div id="dt2" >
+				<b>Подающий выиграет гейм:</b> 
+				<br>17-й гейм со счетом <strong>40:0</strong>: <a href="#" onClick="return al();">6.7</a>; 
+				<br>17-й гейм со счетом <strong>40:15</strong>: <a href="#" onClick="return al();">4</a>; 
+				<br>17-й гейм со счетом <strong>40:30</strong>: <a href="#" onClick="return al();">3.9</a>; 
+				<br>17-й гейм со счетом <strong>40:40</strong>: <a href="#" onClick="return al();">4.8</a>; 
+				<br>17-й гейм подающий проиграет: <a href="#" onClick="return al();">2.95</a>;
+			</div>
+			<div id="dt2" >
+				<b>Счет:</b> <strong>2:0</strong>: <a href="#" onClick="return al();">1.65</a>; <strong>2:1</strong>: <a href="#" onClick="return al();">4.09</a>; <strong>1:2</strong>: <a href="#" onClick="return al();">4.5</a>;
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class=red colspan="12"> Счёт: 1:0(7:5,1:2) <img class=tball  width=13 height=11 src=/img/tball.gif />0:0</td>
+	</tr>
+	<tr>
+		<td class=red colspan="12"><img src="img/tv.gif">НТВ+Теннис&nbsp;&nbsp;online   <a href="#" onclick="window.open('/wflive/live_player.php?bet=1989454','vpl', 'scrollbars=no,resizable=yes,status=no,width=500,height=385'); return false;"><img src="/img/ico/livevideo.png" class=vid /> <span class=vdt>открыть видеотрансляцию</span></a>
+		</td>
+	</tr>
+	<tr>
+		<td height="8" colspan="12"></td>
+	</tr>
+</table>
+
+<br>Наша организация не несёт ответственности за неточности в текущих результатах событий, на которые принимаются live-ставки.<br>Пользуйтесь, пожалуйста, независимыми источниками информации.</div>
+<br>
+
+</body>
+</html>
+
